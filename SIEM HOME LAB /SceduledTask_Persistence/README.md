@@ -61,7 +61,6 @@ Splunk Enterprise
 
 Install Splunk Universal Forwarder on the Windows machine and connect it to your Splunk Enterprise instance.
 
-**Screenshot:** `screenshots/01-forwarder-install.png`
 
 ## Configure inputs.conf
 
@@ -149,11 +148,6 @@ schtasks /create /tn "Windows Update Service" /sc ONLOGON /tr "powershell.exe -N
 - PowerShell launches Notepad.
 - Notepad opens the demonstration file.
 
-**Screenshots**
-
-- `screenshots/02-command.png`
-- `screenshots/03-task-scheduler.png`
-- `screenshots/04-notepad.png`
 
 ---
 
@@ -218,12 +212,7 @@ index=main source="WinEventLog:Microsoft-Windows-TaskScheduler/Operational"
 | stats count by EventCode
 ```
 
-**Screenshots**
 
-- `screenshots/05-splunk-search.png`
-- `screenshots/06-detection.png`
-
----
 
 # Investigation
 
@@ -252,9 +241,7 @@ A custom Splunk dashboard was created to visualize:
 - Scheduled task activity
 - Detection trends
 
-**Screenshot**
 
-- `screenshots/07-dashboard.png`
 
 ---
 
