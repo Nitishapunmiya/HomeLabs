@@ -62,7 +62,7 @@ This confirmed port 22 was open and running OpenSSH 10.0p2 on Debian
 From the WSL shell, I ran repeated `ssh kali@192.168.1.202` connections:
 
 ```
-root@LAPTOP-ER8LP18G:/# ssh kali@192.168.1.202
+root@LAPTOP/# ssh kali@192.168.1.202
 kali@192.168.1.202's password:
 Permission denied, please try again.
 kali@192.168.1.202's password:
